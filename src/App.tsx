@@ -1,6 +1,7 @@
+import { Container } from './Container/index';
 const App = () => {
   return (
-    <h1>OLÁ PROGRAMADOR</h1>
+    <Container/>
   )
 }
 
