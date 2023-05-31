@@ -9,28 +9,34 @@ export const Content = styled.div`
     text-align: center;
     border: 1px solid black;
     border-radius: 10px;
+    background-color: #1f0664;  
 
     h1 {
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
-        color: purple;
+        color: red;
+    }
+
+    span {
+        font-size: 70px;
+        color: white;
     }
 `
 
 export const SecondContent = styled.div`
     display: flex;
-    margin-top: 10em;
+    margin-top: 3em;
     justify-content: center;
-    justify-content: space-around;
 `
 
-export const Botao = styled.button`
-    width: 120px;
+export const Botao = styled.div`
+    width: 100px;
     border-radius: 5px;
-    padding: 10px;
-    color: purple;
+    padding: 8px;
+    color: wheat;
     font-weight: bold;
-    background-color: #c2d1e6;
+    background-color: black;
     border: none;
     cursor: pointer;
+    margin: 1em;
 `
